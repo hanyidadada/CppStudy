@@ -7,5 +7,3 @@ git commit -m "第三章初始化"
 git pull origin Chapter3:master --allow-unrelated-histories
 ::推送本地分支到远程
 git push -u origin master:Chapter3
-
-pause
