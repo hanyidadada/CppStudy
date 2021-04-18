@@ -6,4 +6,4 @@ git commit -m "练习"
 ::同步远程仓库
 git pull origin Chapter9:master --allow-unrelated-histories
 ::推送本地分支到远程
-git push -u origin master:Chapter9
+git push -f origin master:Chapter9
