@@ -3,18 +3,18 @@
 
 typedef unsigned long Item;
 
-struct node
+struct Node
 {
     Item value;
-    node *pre;
-    node *next;
+    Node *pre;
+    Node *next;
 };
 
 class List
 {
 private:
     static const int MAX = 20;
-    node *list;
+    Node *list;
     int total;    
 public:
     List();
